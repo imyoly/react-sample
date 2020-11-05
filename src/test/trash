@@ -1,0 +1,16 @@
+    <div className="m20 container">
+            <div id="createUser" className="divSection">
+                <CreateUser username={username} email={email} onChange={onChange} onCreate={onCreate}/><br/>
+
+                <UserList users={users} onRemove={onRemove} onToggle={onToggle}/> {/* UserListe에게 props로 전달*/}
+                <span className="activeCnt">활성 사용자 수 : {count}</span>
+            </div><hr/>
+            
+            <div id="counter" className="divSection">
+                <Counter/>
+            </div><hr/>
+
+            <div id="" className="divSection">
+                <h3 className="bottom-line">zzzzzzㅋㅋ</h3>
+            </div>
+    </div>
