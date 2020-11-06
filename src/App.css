@@ -75,6 +75,14 @@ hr { margin-top: 15px; border: #FFE08C;}
   background-color: #FFE08C;
 }
 
+.button_scss {
+  width: 512px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
 .inputDiv {
   /* max-width: 182px; */
   /* width: 193px; */

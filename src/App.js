@@ -1,4 +1,7 @@
 import React, { useState, useRef, useMemo, useCallback, useReducer} from 'react';
+import produce from 'immer';
+
+// 컴포넌트
 import CreateUser from './tutorial11~16/CreateUser';
 import UserList from './tutorial11~16/UserList';
 import Counter from './tutorial7~10/Counter';
@@ -6,7 +9,9 @@ import useInputs from './hooks/useInputs';
 import List from './test/List';
 import Hello from './tutorial1-6/Hello';
 import Random from './Random';
-import produce from 'immer';
+import Button from './test/Button';
+
+
 
 /* useMemo : 이전에 계산한 값을 재사용한다는 의미, useCallback은 특정함수를 새로만들지 않고 재사용하고 싶을 때 사용 */
 /* useReducer vs useState ??
@@ -264,8 +269,9 @@ function App() {
                 </div>
 
                 {/* list 영역 */}
-                <div id="test" className="divSection" style={{width:"500px", height:"50px"}}>
-                    <h3 className="bottom-line">test</h3>
+                <div id="button" className="divSection" style={{width:"500px", height:"50px"}}>
+                    <h3 className="bottom-line">button_scss</h3>
+                    <Button>BUTTON</Button>
                     {/* <List /> */}
                 </div>
 
