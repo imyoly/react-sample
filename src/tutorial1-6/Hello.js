@@ -14,7 +14,7 @@ class Hello extends Component {
         const {color, name, isSpecial } = this.props;
         return (
             <div style={style}>
-                <h4>{isSpecial && <b>*</b>}hi, {name}</h4>
+                <h4>{isSpecial && <b>*</b>}hi, {name}!</h4>
             </div>
         );
     }

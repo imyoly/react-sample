@@ -257,7 +257,24 @@ function App() {
                     <Random />
                 </div>
 
-                    
+                {/* 생명주기 영역 */}
+                <div id="lifecycle" className="divSection" style={{width:"500px", height:"320px" }}>
+                    <h3 className="bottom-line">lifeCycle</h3><hr/>
+                    <img src="https://i.imgur.com/cNfpEph.png" alt="생명주기" width="500" height=""/>
+                </div>
+
+                {/* list 영역 */}
+                <div id="test" className="divSection" style={{width:"500px", height:"50px"}}>
+                    <h3 className="bottom-line">test</h3>
+                    {/* <List /> */}
+                </div>
+
+                {/* list 영역 */}
+                <div id="footer" className="divSection" style={{width:"500px", height:"50px"}}>
+                    <h3 className="bottom-line">footer</h3>
+                    {/* <List /> */}
+                </div>
+
             </div>
         </UserDispatch.Provider>
     );
